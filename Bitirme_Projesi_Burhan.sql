@@ -125,7 +125,7 @@ declare
     select @KisilerID = KisilerID, @AdSoyad = AdSoyad, @Telefon = Telno, @Tesis=TesisID, @Spor=SporID, @Egitmen=EgitmenID from inserted
 
     insert into AUDIT_LOG (KULLANICI_ID, ADSOYAD, TELNO, ISLEM_TIPI, ISLEM_ZAMANI, DETAY)
-    values (@KisilerID, @AdSoyad, @Telefon, 'INSERT', GETDATE(), 'Yeni Kullanýcý eklendi: '+'Tesis: '+ @Tesis + 'Spor: ' + @Spor + 'Eðitmen: ' + @Egitmen )
+    values (@KisilerID, @AdSoyad, @Telefon, 'INSERT', GETDATE(), 'Yeni Kullanýcý eklendi.' )
     end
 
 
