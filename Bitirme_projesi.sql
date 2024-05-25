@@ -1,3 +1,10 @@
+######### PROJENÝN AMACI ##########
+
+Ýstanbuldaki bazý spor tesisleri, tesislerde bulunan spor dallarý, tesislerde çalýþan eðitmenler ve spor yapan kiþileri içermektedir.
+
+
+######### VERÝTABANI TASARIMI #############
+
 CREATE DATABASE SporVT
 use SporVT
 create table TESISLER(
